@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>{TargetFramework}</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Prime.ProjectName.Domain\Prime.ProjectName.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
