@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "PrimeHolding",
+  "classifications": [ "PrimeInternshipTemplate" ],
+  "name": "Prime Internship Template",
+  "identity": "PrimeInternshipTemplate",
+  "shortName": "prminternship",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjectName",
+  "symbols": {
+    "framework": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "net6.0",
+      "description": "Sets the target framework for the project.",
+      "replaces": "{TargetFramework}"
+    }
+  },
+  "sources": [
+    {
+      "exclude": [
+        ".idea/**",
+        ".vscode/**",
+        ".vs/**",
+        ".DS_Store/**",
+        ".git/**",
+        "**/bin/**",
+        "**/obj/**",
+        ".template.config/**",
+        "README.md"
+      ]
+    }
+  ]
+}
